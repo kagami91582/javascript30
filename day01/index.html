@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drum Kit!</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <section>
+        <div data-key="65" class="button">
+            <kbd >A</kbd>
+            <p class="sound">CLAP</p>
+        </div>
+        <div data-key="83" class="button">
+            <kbd>S</kbd>
+            <p class="sound">HIHAT</p>
+        </div>
+        <div data-key="68" class="button">
+            <kbd>D</kbd>
+            <p class="sound">KICK</p>
+        </div>
+        <div data-key="70"class="button">
+            <kbd>F</kbd>
+            <p class="sound">OPENHAT</p>
+        </div>
+        <div data-key="71" class="button">
+            <kbd>G</kbd>
+            <p class="sound">BOOM</p>
+        </div>
+        <div data-key="72" class="button">
+            <kbd>H</kbd>
+            <p class="sound">RIDE</p>
+        </div>
+        <div data-key="74" class="button">
+            <kbd>J</kbd>
+            <p class="sound">SNARE</p>
+        </div>
+        <div data-key="75" class="button">
+            <kbd>K</kbd>
+            <p class="sound">TOM</p>
+        </div>
+        <div data-key="76" class="button">
+            <kbd>L</kbd>
+            <p class="sound">TINK</p>
+        </div>
+
+        <audio data-key="65" src="audio/clap.wav"></audio>
+        <audio data-key="83" src="audio/hihat.wav"></audio>
+        <audio data-key="68" src="audio/kick.wav"></audio>
+        <audio data-key="70" src="audio/openhat.wav"></audio>
+        <audio data-key="71" src="audio/boom.wav"></audio>
+        <audio data-key="72" src="audio/ride.wav"></audio>
+        <audio data-key="74" src="audio/snare.wav"></audio>
+        <audio data-key="75" src="audio/tom.wav"></audio>
+        <audio data-key="76" src="audio/tink.wav"></audio>
+    </section>
+    <footer>
+        <p class="sound">create by GaryJiang @ 2018</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
