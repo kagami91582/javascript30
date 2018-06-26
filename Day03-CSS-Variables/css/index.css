@@ -1,0 +1,43 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+
+body {
+  text-align: center;
+  background: linear-gradient(#4773aa,#9bdaf1) no-repeat center fixed;
+  color: #FFF;
+  font-family: 'cwtexyen', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+.h1{
+    color: var(--base);
+}
+.controls {
+  margin-bottom: 40px;
+}
+input {
+  width:100px;
+}
+
+.bar{
+    width: 150px;
+    height: 16px;
+    outline: none;
+    background: none;
+}
+
+.bar::range-track{
+    height:3px;
+    background:#edc;
+    border:none;
+}
+
