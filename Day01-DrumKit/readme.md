@@ -1,5 +1,16 @@
 # JS30-Day01 DrumKit
+
+## 製作流程
+### 開始之前
+在開始之前，先找到下面幾個:
+1. **找尋KeyCode**：找到所謂的KeyCode，它不同於常見的ASCII Code，去餵狗後會看到很多地方有提供。這邊用[keycode.info](http://keycode.info/)這個網站去找，然後記下他們。
+2. 記住JS30是**有提供練習檔案**的。這邊切版則是自己來，~~對，我之後才知道原來有提供檔案~~。
+
+### 開始下手
+(Step1) 
+
 ## 名詞解釋
+
 ### <kbd>(HTML4)</kbd> < kbd >
 是HTML使用的標籤之一，指使用的按鍵部分。通常預設的字型是monospace。
 ### <kbd>(HTML5)</kbd> < audio >
@@ -64,4 +75,3 @@ console.log(video.currentTime);
 video.currentTime = 20 ;
 //設定影片停在20秒
 ```
-
