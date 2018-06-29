@@ -22,12 +22,15 @@ const people = ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel',....];
 ```javascript
 const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
 ```
+
+另外裡面有給[一個wiki連結](https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris)，是巴黎的大道路名。
+
 下面script當中(在JS/index.js)當中，裡面分別出了八個題目。
-1. 使用陣列<kbd>inventors</kbd>，篩選出於1500年代(1500~1599)出生的人。
-2. 使用陣列<kbd>inventors</kbd>，用`first`、`last`兩個資料組合成一個全名。
-3. 使用陣列<kbd>inventors</kbd>，利用出生年去排序。
-4. 使用陣列<kbd>inventors</kbd>，將所有人的歲數加總。
-5. 使用陣列<kbd>inventors</kbd>，依據歲數由大至小排序。
+1. 使用陣列 <kbd>inventors</kbd> ，篩選出於1500年代(1500~1599)出生的人。
+2. 使用陣列 <kbd>inventors</kbd> ，用`first`、`last`兩個資料組合成一個全名。
+3. 使用陣列 <kbd>inventors</kbd> ，利用出生年去排序。
+4. 使用陣列 <kbd>inventors</kbd> ，將所有人的歲數加總。
+5. 使用陣列 <kbd>inventors</kbd> ，依據歲數由大至小排序。
 6. 使用在js當中準備的wiki連結，列出巴黎所有包含'de'的路名。
-7. 使用陣列<kbd>people</kbd>，依據lastName排序所有的資料
-8. 使用陣列<kbd>data</kbd>，計算出每個種類的數量。
+7. 使用陣列 <kbd>people</kbd> ，依姓氏排序。
+8. 使用陣列 <kbd>data</kbd> ，計算每個種類的數量。
