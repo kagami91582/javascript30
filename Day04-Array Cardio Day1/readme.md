@@ -37,7 +37,7 @@ const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bik
 
 ## 解題步驟
 
-### <kbd>inventors</kbd>篩選出於1500年代(1500~1599)出生的人
+### 1. <kbd>inventors</kbd>篩選出於1500年代(1500~1599)出生的人
 
 在這邊我們使用`Array.fliter()`，當我們給訂條件時，就會顯示篩選出來的結果。
 所以我們可以先這樣輸入個:
@@ -57,6 +57,10 @@ console.table(fifteen); //將結果以表格方式，顯示在console上
 const fifteen = inventors.filter( inventors => (inventors.year >= 1500 && inventors.year < 1600));
 console.table(fifteen);
 ```
+
+### 2. <kbd>inventors</kbd>用兩個資料組合成一個全名
+
+在這邊我們使用的是`Array.map()`，
 
 ## 名詞解釋
 ### <kbd>Javascript ES6</kbd> =>
@@ -83,6 +87,6 @@ const funcA = x => x+1
 const funcB = x => { x+1 }
 
 funcA(1);  // 2
-funcB(1);  // undefinded
+funcB(1);  // undefined
 ```
 ![寫個程式證明一下](https://i.imgur.com/kTuGWKJ.png)

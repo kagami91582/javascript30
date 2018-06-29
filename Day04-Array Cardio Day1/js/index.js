@@ -57,10 +57,12 @@ console.table(ordered);
 
 // 4. How many years did all the inventors live?
 //    Array.prototype.reduce()
+
 var totalyear = inventors.reduce((total,inventors) => {
     return total + (inventors.passed - inventors.year);
 } , 0);
-console.log(totalyear);
+console.log('顯示出所有人年紀總和為'+totalyear);
+
 
 // 5. Sort the inventors by years lived
 const oldest = inventors.sort(function(a,b){
@@ -68,6 +70,7 @@ const oldest = inventors.sort(function(a,b){
     const next = b.passed - b.year;
     return (last > next ? -1 : 1);
 });
+console.log('依照年齡排序');
 console.table(oldest);
 
 // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
@@ -86,8 +89,9 @@ console.table(oldest);
 const alpha = people.sort(function(lastOne,nextOne){
     const [aLast,aFirst] = lastOne.split(', ');
     const [bLast,bFirst] = nextOne.split(', ');
-    return aLast > bLast ? -1 : 1 ;
+    return aLast > bLast ? 1 : -1 ;
 });
+console.log('將所有people的人名依姓氏排列出來');
 console.log(alpha);
 
 // 8. Reduce Exercise
@@ -103,4 +107,5 @@ const transportation = data.reduce(function(obj,item){
 },{
 
 });
+console.log('計算交通工具總數');
 console.log(transportation);
