@@ -25,7 +25,7 @@ const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bik
 
 另外裡面有給[一個wiki連結](https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris)，是巴黎的大道路名。
 
-下面script當中(在JS/index.js)當中，裡面分別出了八個題目。
+而在下面script當中(在JS/index.js)當中，裡面分別出了八個題目。
 1. 使用陣列 <kbd>inventors</kbd> ，篩選出於1500年代(1500~1599)出生的人。
 2. 使用陣列 <kbd>inventors</kbd> ，用`first`、`last`兩個資料組合成一個全名。
 3. 使用陣列 <kbd>inventors</kbd> ，利用出生年去排序。
@@ -34,3 +34,29 @@ const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bik
 6. 使用在js當中準備的wiki連結，列出巴黎所有包含'de'的路名。
 7. 使用陣列 <kbd>people</kbd> ，依姓氏排序。
 8. 使用陣列 <kbd>data</kbd> ，計算每個種類的數量。
+
+## 解題步驟
+
+### <kbd>inventors</kbd>篩選出於1500年代(1500~1599)出生的人
+
+在這邊我們使用`Array.fliter()`，當我們給訂條件時，就會顯示篩選出來的結果。
+所以我們可以先這樣輸入個:
+```javascript
+                //對inventors這個陣列進行篩選
+const fifteen = inventors.filter(function(inventors){
+    if(inventors.year >= 1500 && inventors.year < 1600){
+        // 假如inventors裡的year在1500~1599，回傳
+        return true;
+    }
+});
+console.table(fifteen); //將結果以表格方式，顯示在console上
+```
+
+我們可以將if條件函數簡化成:
+```javascript
+const fifteen = inventors.filter( inventors => (inventors.year >= 1500 && inventors.year < 1600));
+console.table(fifteen);
+```
+
+## 名詞解釋
+### <kbd>Javascript ES6</kbd> => (箭頭函式)
