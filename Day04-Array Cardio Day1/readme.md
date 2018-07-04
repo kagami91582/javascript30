@@ -183,7 +183,7 @@ const de = links
 ```
 
 ### 7. <kbd>people</kbd> 依姓氏排序資料
-~~~終於不是<kbd>inventors</kbd>了(歡呼)~~~。
+~~終於不是<kbd>inventors</kbd>了(歡呼)~~。
 
 觀察一下陣列，你會發現他是`[名,姓]`的方式記錄著，表示我們要用`spilt()`來切開每一個字串，`spilt()`是這樣宣告的:
 ```javascript
