@@ -8,9 +8,9 @@
 
 [Day04](https://kagami91582.github.io/javascript30/Day04-Array%20Cardio%20Day1/index.html)
 
-[Day05]()
+[Day05](https://kagami91582.github.io/javascript30/Day05-Flex%20Panels/index.html)
 
-[Day06]()
+[Day06](https://kagami91582.github.io/javascript30/Day06-Type%20Ahead/index.html)
 
 [Day07]()
 
@@ -24,4 +24,4 @@
 
 [Day12]()
 
-## By GaryJiang @2018
+### By GaryJiang @2018
