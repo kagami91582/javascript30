@@ -223,33 +223,6 @@ const transportation = data.reduce(function(obj,item){
 ---
 
 ## 名詞解釋
-### <kbd>Javascript ES6</kbd> =>
-箭頭函式是在ES6新增的語法，基本用法是
-```javascript
-() => {...}
-```
-例如:
-```javascript
-const func = (x) => x+1
-```
-上面相當於
-```javascript
-const func = function(x){
-    return x+1;
-}
-```
-值得一提的是:
-1. `{}`假如沒給他大括號，就代表`return`。
-2. 假如函式裡有多行語句時，就要用`{}`包起來，那`return`就要自己輸入。
-那大概是這個樣子:
-```javascript
-const funcA = x => x+1
-const funcB = x => { x+1 }
-
-funcA(1);  // 2
-funcB(1);  // undefined
-```
-![寫個程式證明一下](https://i.imgur.com/kTuGWKJ.png)
 
 ### <kbd>Javascript</kbd> ?:
 這叫做"條件運算子"，俗稱(?)的"三元運算子"，通常用法是:
