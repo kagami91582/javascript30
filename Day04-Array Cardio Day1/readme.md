@@ -60,7 +60,27 @@ console.table(fifteen);
 
 ### 2. <kbd>inventors</kbd>用兩個資料組合成一個全名
 
-在這邊我們使用的是`Array.map()`，
+在這邊我們使用的是`Array.map()`，`map()`可以召喚陣列裡每一個資料，並依序回傳/使用他們。舉個例子，假設我現在身上有個陣列就是`[1,2,3,4,5]`，讓他們回傳平方值，結果就會:
+```javascript
+const test = [1, 2, 3, 4, 5];
+const Result = testArray.map(function(item){
+    return item*item;
+});
+
+console.log(Result);   // [1, 4, 9, 16, 25]
+```
+
+那麼我們要全名，就給他個**名+姓**的組合就可以了:
+```javascript
+const fullName = inventors.map(inventors => inventors.first+" "+inventors.last);
+console.log(fullName);
+```
+上方是直接給變數，中間插個空白的方法。
+我們也能換個方式，直接利用` `` `打出一個顯示字串，並利用`${}`直接召喚出要更換的陣列名稱即可。
+```javascript
+const fullName = inventors.map(inventors => `${inventors.first} ${inventors.last}`);
+console.log(fullName);
+```
 
 ## 名詞解釋
 ### <kbd>Javascript ES6</kbd> =>
