@@ -5,17 +5,17 @@
 *先提醒一波，這邊成果不一定跟JS30範例一樣，有的會自己從頭手刻。*
 
 
-[Day01](https://kagami91582.github.io/javascript30/Day01-DrumKit/index.html)
+[Day01](https://kagami91582.github.io/javascript30/Day01-DrumKit/index.html) DrumKit 
 
-[Day02](https://kagami91582.github.io/javascript30/Day02-JS%20and%20CSS%20Clock/index.html)
+[Day02](https://kagami91582.github.io/javascript30/Day02-JS%20and%20CSS%20Clock/index.html) JS and CSS Clock
 
-[Day03](https://kagami91582.github.io/javascript30/Day03-CSS-Variables/index.html)
+[Day03](https://kagami91582.github.io/javascript30/Day03-CSS-Variables/index.html) CSS-Variables
 
-[Day04](https://kagami91582.github.io/javascript30/Day04-Array%20Cardio%20Day1/index.html)
+[Day04](https://kagami91582.github.io/javascript30/Day04-Array%20Cardio%20Day1/index.html) Array Cardio Day1
 
-[Day05](https://kagami91582.github.io/javascript30/Day05-Flex%20Panels/index.html)
+[Day05](https://kagami91582.github.io/javascript30/Day05-Flex%20Panels/index.html) Flex Panels
 
-[Day06](https://kagami91582.github.io/javascript30/Day06-Type%20Ahead/index.html)
+[Day06](https://kagami91582.github.io/javascript30/Day06-Type%20Ahead/index.html) Type Ahead
 
 [Day07]()(未完成)
 
