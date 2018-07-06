@@ -22,8 +22,8 @@
       
     // 正常寫法
     const isAdult = people.some(function(person){
-        const nowYear = (new Date()).getFullYear(); //抓取今年年度
-        if(nowYear-person.year >= 19){return true;}
+        const thisYear = (new Date()).getFullYear(); //抓取今年年度
+        if(thisYear-person.year >= 19){return true;}
     });
     console.log({isAdult});
   
