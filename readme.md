@@ -17,7 +17,7 @@
 
 [Day06](https://kagami91582.github.io/javascript30/Day06-Type%20Ahead/index.html) Type Ahead
 
-[Day07]()(未完成)
+[Day07](https://kagami91582.github.io/javascript30/Day07-Array%20Cardio%20Day2/index.html) Array Cardio Day1
 
 [Day08]()(未完成)
 
