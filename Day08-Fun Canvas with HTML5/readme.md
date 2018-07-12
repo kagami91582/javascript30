@@ -136,6 +136,12 @@ canvas.addEventListener('mousedown', (e)=> {
 });
 ```
 
+那麼當我滑鼠移動時，就可以直接加入`draw`函式，當我滑鼠按下又移動時就可以繪出線條來:
+
+```javascript
+canvas.addEventListener('mousemove',draw);
+```
+
 至此基本繪圖就可以了，現在可以打開來看看是不是成功的。
 
 ### 5. 設定顏色與寬度隨之變化
