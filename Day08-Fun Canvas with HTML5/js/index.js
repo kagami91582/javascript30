@@ -43,7 +43,7 @@ function draw(w){
     }else{
         ctx.lineWidth--;
     }
-    document.querySelector('#size').innerHTML = ctx.lineWidth ; 
+
 }
 
 canvas.addEventListener('mousedown', (w) => {
